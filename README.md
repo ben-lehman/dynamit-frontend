@@ -10,3 +10,8 @@
 2. Navigate into the cloned folder and run `npm install`
 3. Run `gulp build` to create dist folder
 4. Open up dist/index.html in browser
+
+##Notes and areas for improvement
+
+1. The Instagram feed module doesn't expand the entire width of the site in the live demo since the images were pretty low res in the PSD file, so I decided to constrain the width of that section to the image's max widths rather than blow out the images. 
+2. For a larger projects I like to modularize my sass code by page/section of the site. Since this was a single page build out I decided to keep everything within my input.scss file.
