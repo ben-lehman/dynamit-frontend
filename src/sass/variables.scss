@@ -1,0 +1,29 @@
+$image-grid-columns: 6;
+$image-grid-max-width: 190px;
+
+$lg-bpt: 1024px;
+$md-bpt: 768px;
+$sm-bpt: 480px;
+
+$background: #fff;
+$background--splash: #fbfafa;
+$background--footer: #efefef;
+$highlight: #286782;
+
+$font--primary: #555559;
+$font--dark: #2e2e2e;
+$font--light: #ffffff;
+
+$font-family--primary: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
+
+@mixin for-tablet-down {
+  @media (max-width: $md-bpt) { @content }
+}
+
+@mixin for-tablet-up {
+  @media (min-width: $md-bpt) { @content }
+}
+
+@mixin for-mobile-only {
+  @media (max-width: $sm-bpt) { @content }
+}
