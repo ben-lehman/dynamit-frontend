@@ -1,7 +1,7 @@
 # Dyanmit Frontend Screening
-[![Netlify Status](https://api.netlify.com/api/v1/badges/830fbe23-c86d-4afd-b143-5d6ae112a914/deploy-status)](https://app.netlify.com/sites/thirsty-lichterman-96c56e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/830fbe23-c86d-4afd-b143-5d6ae112a914/deploy-status)](https://app.netlify.com/sites/clever-newton-5b9515/deploys)
 
-[View Demo](https://thirsty-lichterman-96c56e.netlify.com/)
+[View Demo](https://clever-newton-5b9515.netlify.com/)
 
 
 ## Installation
